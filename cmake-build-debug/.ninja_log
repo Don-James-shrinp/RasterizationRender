@@ -12,3 +12,7 @@
 493	670	6904917953003978	Rasterization.exe	4bc1d50cb23aa4fe
 2	458	6904918338581603	CMakeFiles/Rasterization.dir/Vector3f.cpp.obj	3a5a38cf6b051752
 458	536	6904918339329604	Rasterization.exe	4bc1d50cb23aa4fe
+13	432	6905388129513016	CMakeFiles/Rasterization.dir/Vector4f.cpp.obj	ec9e8980a7cc9184
+2	442	6905388129612749	CMakeFiles/Rasterization.dir/main.cpp.obj	c0c1f9e27b32bdf
+7	540	6905388130600113	CMakeFiles/Rasterization.dir/Vector3f.cpp.obj	3a5a38cf6b051752
+540	719	6905388132355404	Rasterization.exe	4bc1d50cb23aa4fe

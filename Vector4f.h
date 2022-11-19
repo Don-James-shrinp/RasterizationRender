@@ -4,9 +4,10 @@
 
 #ifndef RASTERIZATION_VECTOR4F_H
 #define RASTERIZATION_VECTOR4F_H
+#include "Vector3f.h"
 
-
-class Vector4f {
+class Vector4f{
+public:
 
 };
 
