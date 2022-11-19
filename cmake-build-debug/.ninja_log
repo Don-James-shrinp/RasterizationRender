@@ -1,0 +1,14 @@
+# ninja log v5
+2	49	6903717238106963	CMakeFiles/Rasterization.dir/Vector.cpp.obj	2d18ef8e29b41963
+6	71	6903717108798989	CMakeFiles/Rasterization.dir/Matrix.cpp.obj	b73e6e404c44959f
+6	673	6904534873512334	CMakeFiles/Rasterization.dir/main.cpp.obj	c0c1f9e27b32bdf
+673	842	6904534875177716	Rasterization.exe	73905249823c39e3
+0	543	6904917182481346	build.ninja	b0c2096564ba5f61
+1	670	6904534873482247	CMakeFiles/Rasterization.dir/Matrix3f.cpp.obj	19253d3ba427c4bb
+11	673	6904534873502200	CMakeFiles/Rasterization.dir/Vector3f.cpp.obj	3a5a38cf6b051752
+15	242	6904917948744745	CMakeFiles/Rasterization.dir/Vector4f.cpp.obj	ec9e8980a7cc9184
+3	412	6904917950450175	CMakeFiles/Rasterization.dir/main.cpp.obj	c0c1f9e27b32bdf
+9	492	6904917951248040	CMakeFiles/Rasterization.dir/Vector3f.cpp.obj	3a5a38cf6b051752
+493	670	6904917953003978	Rasterization.exe	4bc1d50cb23aa4fe
+2	458	6904918338581603	CMakeFiles/Rasterization.dir/Vector3f.cpp.obj	3a5a38cf6b051752
+458	536	6904918339329604	Rasterization.exe	4bc1d50cb23aa4fe

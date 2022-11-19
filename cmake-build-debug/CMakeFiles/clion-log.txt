@@ -1,0 +1,4 @@
+"E:\CLion\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=E:/CLion/CLion 2022.2.4/bin/ninja/win/ninja.exe" -G Ninja -S F:\Project\Rasterization -B F:\Project\Rasterization\cmake-build-debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: F:/Project/Rasterization/cmake-build-debug
