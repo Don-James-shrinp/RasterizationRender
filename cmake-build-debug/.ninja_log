@@ -12,3 +12,13 @@
 0	456	6909157827530970	CMakeFiles/Rasterization.dir/src/main.cpp.obj	d107a1b0ce921c31
 12	541	6909157828398650	CMakeFiles/Rasterization.dir/src/Vector3f.cpp.obj	9cba91a9e7ca03e2
 541	722	6909157830189710	Rasterization.exe	f1a9dfcecea842c1
+3	497	6909202525486880	CMakeFiles/Rasterization.dir/src/main.cpp.obj	d107a1b0ce921c31
+498	766	6909202528159790	Rasterization.exe	f1a9dfcecea842c1
+9	601	6909205503729059	CMakeFiles/Rasterization.dir/src/Vector4f.cpp.obj	9d6ddb3a3810dd5b
+3	617	6909205503888619	CMakeFiles/Rasterization.dir/src/main.cpp.obj	d107a1b0ce921c31
+28	676	6909205504477050	CMakeFiles/Rasterization.dir/src/Vector3f.cpp.obj	9cba91a9e7ca03e2
+676	915	6909205506850703	Rasterization.exe	f1a9dfcecea842c1
+11	381	6909216248838053	CMakeFiles/Rasterization.dir/src/Vector4f.cpp.obj	9d6ddb3a3810dd5b
+3	693	6909216251960765	CMakeFiles/Rasterization.dir/src/main.cpp.obj	d107a1b0ce921c31
+38	1307	6909216258104542	CMakeFiles/Rasterization.dir/src/Vector3f.cpp.obj	9cba91a9e7ca03e2
+1307	2130	6909216266320965	Rasterization.exe	f1a9dfcecea842c1

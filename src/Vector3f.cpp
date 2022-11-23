@@ -2,7 +2,7 @@
 // Created by Lenovo on 2022/11/17.
 //
 
-#include "../include/Vector3f.h"
+#include "Vector3f.h"
 #include <iostream>
 #include <cmath>
 void Vector3f::normalize()
@@ -19,12 +19,12 @@ Vector3f Vector3f::normalized()
     return {x / Modulus, y / Modulus, z / Modulus};
 }
 
-float Vector3f::dotMultiply(Vector3f other)
+float Vector3f::dotMultiply(Vector3f &other) const
 {
     return x * other.x + y * other.y + z * other.z;
 }
 
-Vector3f Vector3f::crossMultiply(Vector3f other)
+Vector3f Vector3f::crossMultiply(Vector3f &other) const
 {
     return {y * other.z - z * other.y, z * other.x - x * other.z, x * other.y - y * other.x};
 }
@@ -47,6 +47,11 @@ float Vector3f::get_z() const
 float Vector3f::getModulus()
 {
     return std::sqrt(x * x + y * y + z * z);
+}
+
+Vector4f Vector3f::toVector4f() const //  将三维坐标转化为四维齐次坐标
+{
+    return {x, y, z, 0};
 }
 
 
