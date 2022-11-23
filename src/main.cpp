@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Vector3f.h"
+#include "../include/Vector3f.h"
 
 int main() {
     Vector3f v1(2,2,2), v2(2,3,1);

@@ -2,7 +2,7 @@
 // Created by Lenovo on 2022/11/17.
 //
 
-#include "Vector3f.h"
+#include "../include/Vector3f.h"
 #include <iostream>
 #include <cmath>
 void Vector3f::normalize()

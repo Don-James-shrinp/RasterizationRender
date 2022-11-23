@@ -49,29 +49,33 @@ cmake_ninja_workdir = F$:/Project/Rasterization/cmake-build-debug/
 
 build cmake_object_order_depends_target_Rasterization: phony || CMakeFiles/Rasterization.dir
 
-build CMakeFiles/Rasterization.dir/main.cpp.obj: CXX_COMPILER__Rasterization_Debug F$:/Project/Rasterization/main.cpp || cmake_object_order_depends_target_Rasterization
-  DEP_FILE = CMakeFiles\Rasterization.dir\main.cpp.obj.d
+build CMakeFiles/Rasterization.dir/src/main.cpp.obj: CXX_COMPILER__Rasterization_Debug F$:/Project/Rasterization/src/main.cpp || cmake_object_order_depends_target_Rasterization
+  DEP_FILE = CMakeFiles\Rasterization.dir\src\main.cpp.obj.d
   FLAGS = -g -std=gnu++20
+  INCLUDES = -IF:/Project/Rasterization/include
   OBJECT_DIR = CMakeFiles\Rasterization.dir
-  OBJECT_FILE_DIR = CMakeFiles\Rasterization.dir
+  OBJECT_FILE_DIR = CMakeFiles\Rasterization.dir\src
 
-build CMakeFiles/Rasterization.dir/Matrix3f.cpp.obj: CXX_COMPILER__Rasterization_Debug F$:/Project/Rasterization/Matrix3f.cpp || cmake_object_order_depends_target_Rasterization
-  DEP_FILE = CMakeFiles\Rasterization.dir\Matrix3f.cpp.obj.d
+build CMakeFiles/Rasterization.dir/src/Vector4f.cpp.obj: CXX_COMPILER__Rasterization_Debug F$:/Project/Rasterization/src/Vector4f.cpp || cmake_object_order_depends_target_Rasterization
+  DEP_FILE = CMakeFiles\Rasterization.dir\src\Vector4f.cpp.obj.d
   FLAGS = -g -std=gnu++20
+  INCLUDES = -IF:/Project/Rasterization/include
   OBJECT_DIR = CMakeFiles\Rasterization.dir
-  OBJECT_FILE_DIR = CMakeFiles\Rasterization.dir
+  OBJECT_FILE_DIR = CMakeFiles\Rasterization.dir\src
 
-build CMakeFiles/Rasterization.dir/Vector3f.cpp.obj: CXX_COMPILER__Rasterization_Debug F$:/Project/Rasterization/Vector3f.cpp || cmake_object_order_depends_target_Rasterization
-  DEP_FILE = CMakeFiles\Rasterization.dir\Vector3f.cpp.obj.d
+build CMakeFiles/Rasterization.dir/src/Vector3f.cpp.obj: CXX_COMPILER__Rasterization_Debug F$:/Project/Rasterization/src/Vector3f.cpp || cmake_object_order_depends_target_Rasterization
+  DEP_FILE = CMakeFiles\Rasterization.dir\src\Vector3f.cpp.obj.d
   FLAGS = -g -std=gnu++20
+  INCLUDES = -IF:/Project/Rasterization/include
   OBJECT_DIR = CMakeFiles\Rasterization.dir
-  OBJECT_FILE_DIR = CMakeFiles\Rasterization.dir
+  OBJECT_FILE_DIR = CMakeFiles\Rasterization.dir\src
 
-build CMakeFiles/Rasterization.dir/Vector4f.cpp.obj: CXX_COMPILER__Rasterization_Debug F$:/Project/Rasterization/Vector4f.cpp || cmake_object_order_depends_target_Rasterization
-  DEP_FILE = CMakeFiles\Rasterization.dir\Vector4f.cpp.obj.d
+build CMakeFiles/Rasterization.dir/src/Matrix3f.cpp.obj: CXX_COMPILER__Rasterization_Debug F$:/Project/Rasterization/src/Matrix3f.cpp || cmake_object_order_depends_target_Rasterization
+  DEP_FILE = CMakeFiles\Rasterization.dir\src\Matrix3f.cpp.obj.d
   FLAGS = -g -std=gnu++20
+  INCLUDES = -IF:/Project/Rasterization/include
   OBJECT_DIR = CMakeFiles\Rasterization.dir
-  OBJECT_FILE_DIR = CMakeFiles\Rasterization.dir
+  OBJECT_FILE_DIR = CMakeFiles\Rasterization.dir\src
 
 
 # =============================================================================
@@ -81,7 +85,7 @@ build CMakeFiles/Rasterization.dir/Vector4f.cpp.obj: CXX_COMPILER__Rasterization
 #############################################
 # Link the executable Rasterization.exe
 
-build Rasterization.exe: CXX_EXECUTABLE_LINKER__Rasterization_Debug CMakeFiles/Rasterization.dir/main.cpp.obj CMakeFiles/Rasterization.dir/Matrix3f.cpp.obj CMakeFiles/Rasterization.dir/Vector3f.cpp.obj CMakeFiles/Rasterization.dir/Vector4f.cpp.obj
+build Rasterization.exe: CXX_EXECUTABLE_LINKER__Rasterization_Debug CMakeFiles/Rasterization.dir/src/main.cpp.obj CMakeFiles/Rasterization.dir/src/Vector4f.cpp.obj CMakeFiles/Rasterization.dir/src/Vector3f.cpp.obj CMakeFiles/Rasterization.dir/src/Matrix3f.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Rasterization.dir
