@@ -32,12 +32,15 @@ class Vector3f: public Vector
 
         float getModulus() override;  //  获取向量的模长
 
-        Vector4f toVector4f() const;  //  将当前的三维向量妆化维四维其次坐标的向量
+        [[nodiscard]] Vector4f toVector4f() const;  //  将当前的三维向量妆化维四维其次坐标的向量
+
+        friend Vector3f operator- (Vector3f &v1, Vector3f &v2);
 
         friend std::ostream &operator<< (std::ostream &output, const Vector3f &v);  //  重载流插入运算符
 
         friend std::istream &operator>> (std::istream &input, Vector3f &v);  //  重载流提取运算符
 
+        friend Vector3f getVec3(Vector3f Start, Vector3f End);  //  根据起始点获取向量Start->End
     private:
         float x,y,z;
 

@@ -67,6 +67,15 @@ std::istream &operator>>(std::istream &input, Vector3f &v)
     return input;
 }
 
+Vector3f getVec3(Vector3f Start, Vector3f End)
+{
+    return End - Start;
+}
+
+Vector3f operator-(Vector3f &v1, Vector3f &v2)
+{
+    return {v1.x - v2.x, v1.y - v2.y, v1.z - v2.z};
+}
 
 
 

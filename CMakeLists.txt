@@ -7,6 +7,7 @@ set(SOURCES
         src/Vector4f.cpp
         src/Vector3f.cpp
         src/Matrix3f.cpp
+        src/Triangle.cpp
 )
 
 add_executable(Rasterization ${SOURCES})
